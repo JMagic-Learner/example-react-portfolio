@@ -1,5 +1,4 @@
 import React from 'react'
-import { Router } from 'react-router-dom' 
 import { Link } from 'react-router-dom'
 import LinkedInIcon from '../../assets/images/linkedin.svg'
 import FacebookIcon from '../../assets/images/facebook.svg'
@@ -15,27 +14,27 @@ return  (<div className = "footer">
         <div className = "media-links">
             <div className = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
                 <div className = "facebook">
-                    <a href = "#">
-                        <img className = "img-responsive" src = {FacebookIcon}/>
-                        </a>
+                    <Link to = "#">
+                        <img className = "img-responsive" alt="yes" src = {FacebookIcon}/>
+                        </Link>
                 </div>
             </div>
 
             <div className = "col-sm-1 col-md-1">
                 <div className = "linkedin">
-                    <a href = "#"><img className = "img-responsive" src = {LinkedInIcon}/></a>
+                    <Link to = "#"><img className = "img-responsive" alt="yes" src = {LinkedInIcon}/></Link>
                 </div>
             </div>
 
             <div className = "col-sm-1 col-md-1">
                 <div className = "pinterest">
-                    <a href = "#"><img className = "img-responsive" src = {PinterstIcon}/></a>
+                    <Link to = "#"><img className = "img-responsive" alt="yes"  src = {PinterstIcon}/></Link>
                 </div>
             </div>
 
             <div className = "col-sm-1 col-md-1">
                 <div className = "email-icon">
-                    <a href = "#"><img className = "img-responsive" src = {EmailIcon}/></a>
+                    <Link to = "#"><img className = "img-responsive" alt="yes"  src = {EmailIcon}/></Link>
                 </div>
             </div>
         </div>
@@ -66,34 +65,34 @@ return  (<div className = "footer">
 
         <div className = "col-sm-2 col-md-2 text-center">
             <div className = "home-footer">
-                <h4><a href = "#">Home</a></h4>
+                <h4><Link to = "#">Home</Link></h4>
             </div>
         </div>
 
         <div className = "col-sm-2 col-md-2 text-center">
             <div className = "portfolio-footer">
-                <h4><a href = "#">Portfolio</a></h4>
+                <h4><Link to = "#">Portfolio</Link></h4>
                 <ul>
-                    <li><a href = "#">Project1</a></li>
-                    <li><a href = "#">Project2</a></li>
-                    <li><a href = "#">Project3</a></li>
-                    <li><a href = "#">See All</a></li>
+                    <li><Link to = "#">Project1</Link></li>
+                    <li><Link to = "#">Project2</Link></li>
+                    <li><Link to = "#">Project3</Link></li>
+                    <li><Link to = "#">See All</Link></li>
                 </ul>
             </div>
         </div>
 
         <div className = "col-sm-2 col-md-2 text-center">
             <div className = "resume-footer">
-                <h4><a href = "#">Resume</a></h4>
+                <h4><Link to = "#">Resume</Link></h4>
                 <ul>
-                    <li><a href = "#">Download</a></li>
+                    <li><Link to = "#">Download</Link></li>
                 </ul>
             </div>
         </div>
 
         <div className = "col-sm-2 col-md-2 text-center">
             <div className = "contact-footer">
-                <h4><a href = "#">Contact</a></h4>
+                <h4><Link to = "#">Contact</Link></h4>
             </div>
         </div>
     </div>

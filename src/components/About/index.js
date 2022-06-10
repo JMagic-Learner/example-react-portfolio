@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 class About extends React.Component {
     render() {
@@ -11,6 +12,8 @@ class About extends React.Component {
                     </div>
                 </div>
             </div>
+
+            
 
             <div className = "row">
                 <div className = "col-sm-12 col-md-12 text-center">
@@ -50,7 +53,7 @@ class About extends React.Component {
             <div className = "row">
                 <div className = "about-option-buttons">
                     <div className = "col-sm-2 col-md-2">
-                        <a href = "#contact" className = "btn btn-default btn-black-border">Contact</a>
+                        <Link to = "#contact" className = "btn btn-default btn-black-border">Contact</Link>
                     </div>
                 </div>
             </div>

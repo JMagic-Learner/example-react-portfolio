@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 class Main extends React.Component {
 render() {
@@ -16,11 +16,11 @@ return(<div className = "main">
     <div className = "row text-center" id="main-button-container">
         <div className = "banner-buttons">
             <div className = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5">
-                <a className = "btn btn-default btn-border" href = "#about">Info</a>
+                <Link className = "btn btn-default btn-border" to= "#about">Info</Link>
             </div>
 
             <div className = "col-sm-1 col-md-1">
-                <a className = "btn btn-default btn-border" href = "#projects">Portfolio</a>
+                <Link className = "btn btn-default btn-border" to= "#projects">Portfolio</Link>
             </div>
         </div>
     </div>

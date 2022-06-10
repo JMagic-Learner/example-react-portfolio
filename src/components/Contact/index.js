@@ -77,7 +77,7 @@ class Contact extends React.Component{
                     <div className = "row">
                         <div className = "col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
                             <div className = "submit-contact">
-                                <a className = "btn btn-default btn-border" href = "#">Submit</a>
+                                <button className = "btn btn-default btn-border" >Submit</button>
                             </div>
                         </div>
                     </div>
