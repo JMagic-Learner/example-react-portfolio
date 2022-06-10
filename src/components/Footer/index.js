@@ -12,7 +12,7 @@ return  (<div className = "footer">
 <div className = "container-fluid">
     <div className = "row">
         <div className = "media-links">
-            <div className = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
+            <div className = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4 image-containers " >
                 <div className = "facebook">
                     <Link to = "#">
                         <img className = "img-responsive" alt="yes" src = {FacebookIcon}/>
@@ -20,19 +20,19 @@ return  (<div className = "footer">
                 </div>
             </div>
 
-            <div className = "col-sm-1 col-md-1">
+            <div className = "col-sm-1 col-md-1 image-containers">
                 <div className = "linkedin">
                     <Link to = "#"><img className = "img-responsive" alt="yes" src = {LinkedInIcon}/></Link>
                 </div>
             </div>
 
-            <div className = "col-sm-1 col-md-1">
+            <div className = "col-sm-1 col-md-1 image-containers" >
                 <div className = "pinterest">
                     <Link to = "#"><img className = "img-responsive" alt="yes"  src = {PinterstIcon}/></Link>
                 </div>
             </div>
 
-            <div className = "col-sm-1 col-md-1">
+            <div className = "col-sm-1 col-md-1 image-containers">
                 <div className = "email-icon">
                     <Link to = "#"><img className = "img-responsive" alt="yes"  src = {EmailIcon}/></Link>
                 </div>

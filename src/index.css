@@ -357,3 +357,23 @@ textarea {
 #main-button-container {
   display:flex;
 }
+
+.banner-buttons2 {
+  margin-left:20%;
+  width:20%;
+}
+
+.media-links {
+  display:flex;
+  width:100%;
+}
+
+.img-reponsive{
+  width:100%;
+  margin:auto;
+}
+
+.image-containers{
+  width: 10%;
+  margin:7.5%;
+}
