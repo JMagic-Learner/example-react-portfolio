@@ -1,5 +1,6 @@
 import React from 'react'
 import { Router } from 'react-router-dom' 
+import { Link } from 'react-router-dom'
 import LinkedInIcon from '../../assets/images/linkedin.svg'
 import FacebookIcon from '../../assets/images/facebook.svg'
 import PinterstIcon from '../../assets/images/pinterest.svg'
