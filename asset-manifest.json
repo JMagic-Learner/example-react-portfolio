@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/example-react-portfolio/static/css/main.8b81e11c.css",
-    "main.js": "/example-react-portfolio/static/js/main.6d41121f.js",
+    "main.js": "/example-react-portfolio/static/js/main.24ba6f9d.js",
     "static/js/787.59ce6030.chunk.js": "/example-react-portfolio/static/js/787.59ce6030.chunk.js",
     "static/media/architecture-2178604_1920-main1.jpg": "/example-react-portfolio/static/media/architecture-2178604_1920-main1.66d1579cec94bfc059b0.jpg",
     "static/media/apple-1838564_1920-main.jpg": "/example-react-portfolio/static/media/apple-1838564_1920-main.4a6cfe1a160f96454b7b.jpg",
@@ -19,11 +19,11 @@
     "index.html": "/example-react-portfolio/index.html",
     "static/media/facebook.svg": "/example-react-portfolio/static/media/facebook.9239683b5a8c7bdaf06f18ce5c860850.svg",
     "main.8b81e11c.css.map": "/example-react-portfolio/static/css/main.8b81e11c.css.map",
-    "main.6d41121f.js.map": "/example-react-portfolio/static/js/main.6d41121f.js.map",
+    "main.24ba6f9d.js.map": "/example-react-portfolio/static/js/main.24ba6f9d.js.map",
     "787.59ce6030.chunk.js.map": "/example-react-portfolio/static/js/787.59ce6030.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b81e11c.css",
-    "static/js/main.6d41121f.js"
+    "static/js/main.24ba6f9d.js"
   ]
 }
