@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-example-react",
+  "name": "example-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jmagic-learner.github.io/example-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
