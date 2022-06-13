@@ -7,11 +7,12 @@ class Summary extends React.Component {
     render() {
         return(<div className = "summary">
         <div className = "container-fluid">
-            <div className = "row">
-                <div className = "summary-column">
+        <div className = "row">
+            <div className = "summary-column">
+                <div className = "row">
                     <div className = "col-sm-1 col-md-1">
                         <div className = "development-img">
-                            <img className = "img-responsive" src = {DeveloperDesign}/>
+                            <img className = "img-responsive"  src = {DeveloperDesign}/>
                         </div>
                     </div>
 
@@ -22,42 +23,37 @@ class Summary extends React.Component {
                         </div>
                     </div>
                 </div>
-
+                </div>
+            
                 <div className = "responsive-summary">
+                <div className = "row">
                     <div className = "col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
                         <div className = "responsive-img">
                             <img className = "img-responsive" src = {ResponsiveDesign}/>
                         </div>
                     </div>
 
-                    <div className = "col-sm-4 col-md-4">
+                     <div className = "col-sm-4 col-md-4">
                         <div className = "responsive-description">
                             <h3>Responsive Layouts</h3>
                             <p>Development and design isn't merely putting information on the site or preferred media outlet. I organize content and present information in an engaging fashion, driving new and unique layouts in tandem with novel solutions and cool animations.</p>
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
+            
+        
+        
+        
+        </div>
 
-            <div className = "row">
-                <div className = "ideas-summary">
+        <div className = "row">
+        <div className = "passion-summary">
+                <div className = "row">
                     <div className = "col-sm-1 col-md-1">
-                        <div className = "idea-img">
-                            <img className = "img-responsive" src = { InnovativeSolutions}/>
-                        </div>
-                    </div>
-
-                    <div className = "col-sm-4 col-md-4">
-                        <div className = "idea-description">
-                            <h3>Ideas and Solutions</h3>
-                            <p>There are still many problems that exist in today's society, including laziness. Luckily, I hope to combat these issues by innovating, developing easy-to-use programs, solutions, or products.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className = "passion-summary">
-                    <div className = "col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
+                        <div className = "development-img">
                         <img className = "img-responsive" src = {Passion} />
+                        </div>
                     </div>
 
                     <div className = "col-sm-4 col-md-4">
@@ -67,8 +63,30 @@ class Summary extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
+            
+                <div className = "ideas-summary">
+                <div className = "row">
+                    <div className = "col-sm-1 col-md-1 col-sm-offset-2 col-md-offset-2">
+                        <div className = "idea-img">
+                        <img className = "img-responsive" src = { InnovativeSolutions}/>
+                        </div>
+                    </div>
+
+                     <div className = "col-sm-4 col-md-4">
+                     <div className = "idea-description">
+                        <h3>Ideas and Solutions</h3>
+                            <p>There are still many problems that exist in today's society, including laziness. Luckily, I hope to combat these issues by innovating, developing easy-to-use programs, solutions, or products.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+        
+        
+        
         </div>
+    </div>
     </div>)
     }
 }

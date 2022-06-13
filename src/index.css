@@ -375,15 +375,9 @@ textarea {
 
 .media-links {
   display:flex;
-  width:100%;
+  height: 120px;
   margin:auto;
 }
-
-.img-reponsive{
-  width:10%;
-  margin:auto;
-}
-
 
 
 .passion-description{
@@ -415,4 +409,27 @@ textarea {
 .image-containers{
   width:20%;
   margin:auto;
+}
+
+.idea-description,
+.responsive-description,
+.passion-description,
+.development-description {
+  width:500px;
+  margin-left:10%;
+}
+
+.summary-column,
+.responsive-summary {
+  width:500px;
+  margin:auto;
+}
+
+.img-responsive {
+  width:100px;
+  margin-left:-100px;
+}
+
+.img-responsive2 {
+  width:100px;
 }
