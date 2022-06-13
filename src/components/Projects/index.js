@@ -13,17 +13,17 @@ constructor(props){
         HTMLarray: [
         {
             title: "LUV TALK WEBSITE",  
-            subtitle: "Website, created during my first internship, which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress.",
+            description: "Website, created during my first internship, which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress.",
             divName:"luvtalk-project",
             },
             {
             title: "Personal Website", 
-            subtitle: "Enjoyable side project that was created to experiment with more HTML and CSS, but also provided an outlet to showcase my abilities and interests.",
+            description: "Enjoyable side project that was created to experiment with more HTML and CSS, but also provided an outlet to showcase my abilities and interests.",
             divName: "personal-website-project",
             },
             {
             title: "Strike Zone Analysis",
-            subtitle: "Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.",
+            description: "Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.",
             divName:"personal-website-project"
             }
         ]
@@ -49,7 +49,7 @@ constructor(props){
         <div className="col-sm-16 col-md-16 text-center">
             <div className = {items.divName}>
                      <h3>{items.title}</h3>
-                     <p>{items.subtitle} </p>
+                     <p>{items.description} </p>
                      <div className = "row">
                             <div className = "project-more-info">
                                     <Link className = "btn btn-default btn-border" to= "#">More</Link>
