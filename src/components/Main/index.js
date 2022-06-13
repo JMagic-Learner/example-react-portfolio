@@ -15,13 +15,16 @@ return(<div className = "main">
 
     <div className = "text-center" >
         <div className = "banner-buttons">
-        <div className = "row">
+       
+            <div className = "main-button-container">
+            <div className = "row">
             <div className = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5 main-button">
-                <Link className = "btn btn-default btn-border" to= "/About">Info</Link>
+                <Link className = "btn btn-default btn-border" to= "#about">Info</Link>
             </div>
 
             <div className = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5  main-button ">
                 <Link className = "btn btn-default btn-border" to= "/Projects">Portfolio</Link>
+            </div>
             </div>
         </div>
         </div>

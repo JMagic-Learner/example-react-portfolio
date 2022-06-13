@@ -361,15 +361,20 @@ textarea {
 }
 
 .main-button{
-  width:30%;
-  margin:auto;
+  width:25%;
+  
 }
 .container-fluid{
   display:flex;
 }
 
 .banner-buttons {
-  margin:auto;
+  margin:1%;
+  width: 100%;
+}
+
+.main-button-container {
+  margin-left:22%;
   width:100%;
 }
 
