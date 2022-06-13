@@ -10,13 +10,13 @@ import Contact from '../../components/Contact';
 class HomePage extends React.Component {
  render() {
     return(<div>
-        <Navigation/>
+    
         <Main/>
         <About/>
         <Summary/>
         <Projects/>
         <Contact/>
-        <Footer/>
+        
         </div>
     )
  }

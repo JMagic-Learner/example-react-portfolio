@@ -1,7 +1,36 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
+
+    
+
+
 class Projects extends React.Component {
+constructor(props){
+    super(props);
+    this.state={
+        HTMLarray: [
+        {
+            title: "LUV TALK WEBSITE",  
+            subtitle: "Website, created during my first internship, which utilized HTML, CSS, PHP, Ajax, Javascript/jQuery, and Wordpress.",
+            divName:"luvtalk-project",
+            },
+            {
+            title: "Personal Website", 
+            subtitle: "Enjoyable side project that was created to experiment with more HTML and CSS, but also provided an outlet to showcase my abilities and interests.",
+            divName: "personal-website-project",
+            },
+            {
+            title: "Strike Zone Analysis",
+            subtitle: "Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.",
+            divName:"personal-website-project"
+            }
+        ]
+}
+}
+
+
     render() {
         return (<div className="projects" id="projects">
 
@@ -15,7 +44,29 @@ class Projects extends React.Component {
             
 <div className="container-fluid">
 
-    <div className="row">
+    {this.state.HTMLarray.map((items) => {
+        return( <div className="row">
+        <div className="col-sm-16 col-md-16 text-center">
+            <div className = {items.divName}>
+                     <h3>{items.title}</h3>
+                     <p>{items.subtitle} </p>
+                     <div className = "row">
+                            <div className = "project-more-info">
+                                    <Link className = "btn btn-default btn-border" to= "#">More</Link>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+        )
+
+    }
+    
+    
+    )}
+
+    {/* <div className="row">
         <div className="col-sm-16 col-md-16 text-center">
             <div className = "luvtalk-project">
                      <h3>LUV TALK Website</h3>
@@ -47,7 +98,7 @@ class Projects extends React.Component {
          <div className = "col-sm-16 col-md-16 text-center">
             <div className = "strike-zone-project">
                 <h3>Strike Zone Analysis</h3>
-                <p>Data analytics project completed during my time at the Illinois Math and Science Academy which studied the baseball strike zone based on the state of the game.</p>
+                <p></p>
                      <div className = "row">
                             <div className = "project-more-info">
                                     <Link className = "btn btn-default btn-border" to= "#">More</Link>
@@ -55,7 +106,7 @@ class Projects extends React.Component {
                     </div>
             </div>
          </div>
-    </div>
+    </div> */}
 </div>
 
       

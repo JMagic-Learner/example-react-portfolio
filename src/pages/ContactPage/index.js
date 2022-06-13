@@ -6,9 +6,9 @@ import Contact from '../../components/Contact';
 class ContactPage extends React.Component {
  render() {
     return(<div>
-        <Navigation/>
+       
         <Contact/>
-        <Footer/>
+       
         </div>
     )
  }

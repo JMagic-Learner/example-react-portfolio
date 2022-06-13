@@ -1,6 +1,16 @@
 import React from 'react';
 
 class Contact extends React.Component{
+constructor(props) {
+    super(props);
+    this.state={
+        HTMLarray:[
+            {
+                
+            }
+        ]
+    }
+}
     render(){
         return( <div className = "contact" id="contact">
 <div className = "col-sm-12 col-md-12 text-center">

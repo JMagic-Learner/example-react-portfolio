@@ -4,10 +4,56 @@ import ResponsiveDesign from '../../assets/images/responsivedesign.svg'
 import InnovativeSolutions from "../../assets/images/innovativesolutions.svg"
 import Passion from "../../assets/images/passion.svg"
 class Summary extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            HTMLarray1:[
+                {
+                title: "Development and Design",
+                description: "I aim to put my creativity to the test, designing and building unique, meaningful products for clients or merely for my own interests.",
+                divName1: "summary-column",
+                divName2: "development-img",
+                divName3: "development-description",
+                imageSource:DeveloperDesign
+                },
+                {
+                    title: "Responsive Layouts",
+                    description: "Development and design isn't merely putting information on the site or preferred media outlet. I organize content and present information in an engaging fashion, driving new and unique layouts in tandem with novel solutions and cool animations.",
+                    divName1: "responsive-summary",
+                    divName2: "responsive-img",
+                    divName3: "responsive-description",
+                    imageSource:ResponsiveDesign
+                }
+
+            ]
+        }
+    }
     render() {
         return(<div className = "summary">
         <div className = "container-fluid">
         <div className = "row">
+        {this.state.HTMLarray1.map((items) =>{
+            return(
+                <div className = {items.divName1}>
+                <div className = "row">
+                <div className = "col-sm-1 col-md-1">
+                    <div className = {items.divName2}>
+                        <img className = "img-responsive"  src = {items.imageSource}/>
+                    </div>
+                </div>
+
+                <div className = "col-sm-4 col-md-4">
+                    <div className = {items.divName3}>
+                        <h3>{items.title}</h3>
+                        <p> {items.description}</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            )
+        })}
+        </div> 
+        {/* <div className = "row">
             <div className = "summary-column">
                 <div className = "row">
                     <div className = "col-sm-1 col-md-1">
@@ -45,7 +91,7 @@ class Summary extends React.Component {
         
         
         
-        </div>
+        </div> */}
 
         <div className = "row">
         <div className = "passion-summary">
