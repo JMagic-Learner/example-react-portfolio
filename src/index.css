@@ -69,6 +69,7 @@ html {
 
 .entry-banner h1 {
   font-family: "Source Sans Pro", Arial, sans-serif;
+  
 }
 #hello {
   font-size: 28pt;
@@ -186,8 +187,12 @@ html {
   color: white;
   padding: 60px 30px;
 }
+.row {
+  padding: 50px 6%;
+  width: 100%;
 
-.summary .row {
+}
+.summary  {
   
   padding: 50px 6%;
   width: 100%;
@@ -208,6 +213,9 @@ html {
 
 .projects-header-quote {
   margin-bottom: 20px;
+  margin-top:20px;
+  text-align:center;
+  font-style: italic;
 }
 .projects h1,
 .projects h3 {
@@ -218,9 +226,6 @@ html {
   padding: 0 10px;
 }
 
-.projects-header-quote {
-  font-style: italic;
-}
 /*.luvtalk-project, .personal-website-project, .strike-zone-project, .resume {border: 3px solid white;}*/
 .luvtalk-project {
   background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
@@ -317,6 +322,7 @@ textarea {
 .pinterest,
 .email-icon {
   padding: 31%;
+  
 }
 .footer img {
   background-color: #8a8a8a;
@@ -354,26 +360,59 @@ textarea {
 .contact-footer a:hover {
 }
 
-#main-button-container {
+.main-button{
+  width:30%;
+  margin:auto;
+}
+.container-fluid{
   display:flex;
 }
 
-.banner-buttons2 {
-  margin-left:20%;
-  width:20%;
+.banner-buttons {
+  margin:auto;
+  width:100%;
 }
 
 .media-links {
   display:flex;
   width:100%;
-}
-
-.img-reponsive{
-  width:100%;
   margin:auto;
 }
 
+.img-reponsive{
+  width:10%;
+  margin:auto;
+}
+
+
+
+.passion-description{
+  width:100%;
+}
+
+
+.projects-header {
+  width:100%;
+  margin:auto;
+  text-align:center;
+}
+
+.project-more-info{
+  margin:auto;
+
+}
+
+.see-more-button{
+  width:50%;
+  margin:auto;
+}
+
+.personal-contact {
+  margin:auto;
+  text-align: center;
+}
+
 .image-containers{
-  width: 10%;
-  margin:7.5%;
+  width:20%;
+  margin:auto;
 }

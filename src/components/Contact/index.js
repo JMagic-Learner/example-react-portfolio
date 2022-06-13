@@ -3,24 +3,21 @@ import React from 'react';
 class Contact extends React.Component{
     render(){
         return( <div className = "contact" id="contact">
-                <div className = "container-fluid">
-    <div className = "row">
-        <div className = "col-sm-12 col-md-12 text-center">
+<div className = "col-sm-12 col-md-12 text-center">
             <div className = "contact-header">
                 <h1>Contact</h1>
             </div>
         </div>
-    </div>
 
-    <div className = "row">
         <div className = "col-sm-12 col-md-12 text-center">
             <div className = "contact-header-quote">
                 <h4>"XXXXX"</h4>
                 <h4>-XXX</h4>
             </div>
         </div>
-    </div>
 
+                <div className = "container-fluid">
+  
     <div className = "row">
         <div className = "col-sm-6 col-md-6">
             <div className = "contact-instructions">
@@ -36,7 +33,7 @@ class Contact extends React.Component{
                 <p>XXXXXX@gmail.com</p>
             </div>
      
-
+            </div>
                 <div className = "col-sm-6 col-md-6">
             <div className = "contact-form-body">
                 <form>
@@ -85,7 +82,7 @@ class Contact extends React.Component{
             </div>
                 </div>
     </div>
-    </div>
+   
     </div>
     </div>
 )

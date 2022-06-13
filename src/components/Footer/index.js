@@ -9,8 +9,8 @@ import EmailIcon from '../../assets/images/email.svg'
 class Footer extends React.Component {
 render() {
 return  (<div className = "footer">
-<div className = "container-fluid">
-    <div className = "row">
+    <div className = "container-fluid">
+   <div className = "row">
         <div className = "media-links">
             <div className = "col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4 image-containers " >
                 <div className = "facebook">
@@ -39,7 +39,9 @@ return  (<div className = "footer">
             </div>
         </div>
     </div>
+    </div>
 
+    <div className = "container-fluid">
     <div className = "row">
         <div className = "col-sm-6 col-md-6 text-right">
             <div className = "personal-contact phone">
@@ -53,8 +55,14 @@ return  (<div className = "footer">
             </div>
         </div>
     </div>
+    </div>
+<div className = "container-fluid">
+ 
 
-    <div className = "row">
+   
+    
+
+    
         <div className = "col-sm-4 col-md-4 text-center">
             <div className = "company-information">
                 <h3>XXXX</h3>
@@ -97,7 +105,7 @@ return  (<div className = "footer">
         </div>
     </div>
 </div>
-</div>
+
 
 
 

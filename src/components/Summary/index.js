@@ -8,7 +8,7 @@ class Summary extends React.Component {
         return(<div className = "summary">
         <div className = "container-fluid">
             <div className = "row">
-                <div className = "development-summary">
+                <div className = "summary-column">
                     <div className = "col-sm-1 col-md-1">
                         <div className = "development-img">
                             <img className = "img-responsive" src = {DeveloperDesign}/>

@@ -11,20 +11,21 @@ return(<div className = "main">
             <h1 id = "name">XXXX</h1>
             <h1 id = "person-description">UI Developer. UX Desinger. Problem Solver.</h1>
         </div>
-    </div>
+    
 
-    <div className = "row text-center" id="main-button-container">
+    <div className = "text-center" >
         <div className = "banner-buttons">
         <div className = "row">
-            <div className = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5 banner-buttons2">
-                <Link className = "btn btn-default btn-border" to= "#about">Info</Link>
+            <div className = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5 main-button">
+                <Link className = "btn btn-default btn-border" to= "/About">Info</Link>
             </div>
 
-            <div className = "col-sm-1 col-md-1 banner-buttons2">
-                <Link className = "btn btn-default btn-border " to= "#projects">Portfolio</Link>
-            </div>
+            <div className = "col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5  main-button ">
+                <Link className = "btn btn-default btn-border" to= "/Projects">Portfolio</Link>
             </div>
         </div>
+        </div>
+    </div>
     </div>
 </div>
 </div>)
